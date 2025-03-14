@@ -6,6 +6,7 @@
   <packaging>pom</packaging>
   <modules>
     <module>springmvc-quickstart</module>
+    <module>springmvc-beanload</module>
   </modules>
   <version>1.0-SNAPSHOT</version>
 
