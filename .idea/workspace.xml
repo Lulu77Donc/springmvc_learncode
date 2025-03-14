@@ -9,22 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec01a3d9-b587-4c88-aa88-26012139cc9f" name="Changes" comment="springmvc快速入门">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-beanload/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-beanload/src/main/java/com/ljx/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-beanload/src/main/java/com/ljx/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-beanload/src/main/java/com/ljx/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-beanload/src/main/java/com/ljx/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-beanload/src/main/java/com/ljx/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-beanload/src/main/java/com/ljx/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-beanload/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-beanload/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ec01a3d9-b587-4c88-aa88-26012139cc9f" name="Changes" comment="spring和springmvc加载对应的bean">
+      <change afterPath="$PROJECT_DIR$/springmvc-request-mapping/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-request-mapping/src/main/java/com/ljx/config/ServletContainersInitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-request-mapping/src/main/java/com/ljx/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-request-mapping/src/main/java/com/ljx/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-request-mapping/src/main/java/com/ljx/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-request-mapping/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-request-mapping/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc-quickstart/src/main/java/com/ljx/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-quickstart/src/main/java/com/ljx/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +53,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/JavaWeb_learn/Spring_learnCode",
+    "last_opened_file_path": "D:/JavaWeb_learn/SpringMVC_learnCode/springmvc-request-mapping",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,7 +74,7 @@
       <recent name="com.ljx.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Maven.springmvc-request-mapping [tomcat7:run]">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ljx.App" />
       <module name="springmvc-beanload" />
@@ -145,6 +139,35 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/springmvc-quickstart" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="springmvc-request-mapping [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/springmvc-request-mapping" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -230,6 +253,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
+      <item itemvalue="Maven.springmvc-request-mapping [tomcat7:run]" />
       <item itemvalue="Maven.springmvc-quickstart [tomcat7:run]" />
     </list>
     <recent_temporary>
@@ -246,7 +270,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741930849651</updated>
-      <workItem from="1741930850662" duration="8693000" />
+      <workItem from="1741930850662" duration="10968000" />
     </task>
     <task id="LOCAL-00001" summary="springmvc快速入门">
       <option name="closed" value="true" />
@@ -256,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741939001634</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="spring和springmvc加载对应的bean">
+      <option name="closed" value="true" />
+      <created>1741942749208</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741942749208</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +319,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springmvc快速入门" />
-    <option name="LAST_COMMIT_MESSAGE" value="springmvc快速入门" />
+    <MESSAGE value="spring和springmvc加载对应的bean" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring和springmvc加载对应的bean" />
   </component>
 </project>
