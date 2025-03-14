@@ -8,6 +8,7 @@
     <module>springmvc-quickstart</module>
     <module>springmvc-beanload</module>
     <module>springmvc-request-mapping</module>
+    <module>springmvc-request-param</module>
   </modules>
   <version>1.0-SNAPSHOT</version>
 

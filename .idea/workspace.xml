@@ -9,17 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec01a3d9-b587-4c88-aa88-26012139cc9f" name="Changes" comment="spring和springmvc加载对应的bean">
-      <change afterPath="$PROJECT_DIR$/springmvc-request-mapping/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-request-mapping/src/main/java/com/ljx/config/ServletContainersInitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-request-mapping/src/main/java/com/ljx/config/SpringMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-request-mapping/src/main/java/com/ljx/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-request-mapping/src/main/java/com/ljx/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-request-mapping/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-request-mapping/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ec01a3d9-b587-4c88-aa88-26012139cc9f" name="Changes" comment="请求映射路径@RequestMapping" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,11 +24,16 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2uIKrag81aafTwv8U1M7NKT7D1o" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,7 +48,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/JavaWeb_learn/SpringMVC_learnCode/springmvc-request-mapping",
+    "last_opened_file_path": "D:/JavaWeb_learn/SpringMVC_learnCode",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,6 +56,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2229885",
+    "spring.configuration.checksum": "31dd212cf06cfae8eb110389c65c4bcc",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -271,6 +267,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741930849651</updated>
       <workItem from="1741930850662" duration="10968000" />
+      <workItem from="1741951571198" duration="1619000" />
     </task>
     <task id="LOCAL-00001" summary="springmvc快速入门">
       <option name="closed" value="true" />
@@ -288,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741942749208</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="请求映射路径@RequestMapping">
+      <option name="closed" value="true" />
+      <created>1741951895635</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741951895636</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +325,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springmvc快速入门" />
     <MESSAGE value="spring和springmvc加载对应的bean" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring和springmvc加载对应的bean" />
+    <MESSAGE value="请求映射路径@RequestMapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="请求映射路径@RequestMapping" />
   </component>
 </project>
