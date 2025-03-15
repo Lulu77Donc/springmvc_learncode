@@ -10,7 +10,7 @@ import org.springframework.stereotype.Controller;
         excludeFilters = @ComponentScan.Filter(
                 type = FilterType.ANNOTATION,
                 classes = Controller.class
-        ))
+        ))//或者只扫service，dao，domain包
 public class SpringConfig {
 
 }

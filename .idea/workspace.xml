@@ -9,7 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec01a3d9-b587-4c88-aa88-26012139cc9f" name="Changes" comment="请求映射路径@RequestMapping" />
+    <list default="true" id="ec01a3d9-b587-4c88-aa88-26012139cc9f" name="Changes" comment="requestParam">
+      <change afterPath="$PROJECT_DIR$/springmvc-ssm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/config/ServletConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc-beanload/src/main/java/com/ljx/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-beanload/src/main/java/com/ljx/config/SpringConfig.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,32 +46,39 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2uIKrag81aafTwv8U1M7NKT7D1o" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/JavaWeb_learn/SpringMVC_learnCode",
+    "last_opened_file_path": "D:/JavaWeb_learn/SpringMVC_learnCode/springmvc-request-param",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2229885",
-    "spring.configuration.checksum": "31dd212cf06cfae8eb110389c65c4bcc",
+    "spring.configuration.checksum": "b726761acb595ee5733bd1db8beb4b23",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -70,7 +92,7 @@
       <recent name="com.ljx.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.springmvc-request-mapping [tomcat7:run]">
+  <component name="RunManager" selected="Maven.springmvc-request-param [tomcat7:run]">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ljx.App" />
       <module name="springmvc-beanload" />
@@ -169,6 +191,35 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="springmvc-request-param [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/springmvc-request-param" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.131" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
@@ -249,6 +300,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
+      <item itemvalue="Maven.springmvc-request-param [tomcat7:run]" />
       <item itemvalue="Maven.springmvc-request-mapping [tomcat7:run]" />
       <item itemvalue="Maven.springmvc-quickstart [tomcat7:run]" />
     </list>
@@ -267,7 +319,8 @@
       <option name="presentableId" value="Default" />
       <updated>1741930849651</updated>
       <workItem from="1741930850662" duration="10968000" />
-      <workItem from="1741951571198" duration="1619000" />
+      <workItem from="1741951571198" duration="4185000" />
+      <workItem from="1742008782058" duration="8603000" />
     </task>
     <task id="LOCAL-00001" summary="springmvc快速入门">
       <option name="closed" value="true" />
@@ -293,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741951895636</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="requestParam">
+      <option name="closed" value="true" />
+      <created>1741955198901</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741955198901</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,9 +384,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="springmvc快速入门" />
     <MESSAGE value="spring和springmvc加载对应的bean" />
     <MESSAGE value="请求映射路径@RequestMapping" />
-    <option name="LAST_COMMIT_MESSAGE" value="请求映射路径@RequestMapping" />
+    <MESSAGE value="requestParam" />
+    <option name="LAST_COMMIT_MESSAGE" value="requestParam" />
   </component>
 </project>

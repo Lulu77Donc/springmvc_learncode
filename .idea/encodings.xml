@@ -7,6 +7,10 @@
     <file url="file://$PROJECT_DIR$/springmvc-quickstart/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc-request-mapping/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc-request-mapping/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc-request-param/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc-request-param/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc-ssm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc-ssm/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
