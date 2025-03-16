@@ -9,20 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec01a3d9-b587-4c88-aa88-26012139cc9f" name="Changes" comment="ssm整合配置">
-      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/domain/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/test/java/com/ljx/service/BookServiceTest.java" afterDir="false" />
+    <list default="true" id="ec01a3d9-b587-4c88-aa88-26012139cc9f" name="Changes" comment="ssm整合接口开发，功能测试">
+      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/controller/Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/controller/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/842bf5fd-9d9c-4055-8b9a-7f4f12eb5aa9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/842bf5fd-9d9c-4055-8b9a-7f4f12eb5aa9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/842bf5fd-9d9c-4055-8b9a-7f4f12eb5aa9/storage_v2/_src_/schema/spring_db.8BczVQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/842bf5fd-9d9c-4055-8b9a-7f4f12eb5aa9/storage_v2/_src_/schema/spring_db.8BczVQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc-ssm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-ssm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/config/JdbcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/config/JdbcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/controller/BookController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +70,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2229885",
-    "spring.configuration.checksum": "b726761acb595ee5733bd1db8beb4b23",
+    "spring.configuration.checksum": "22e3a16e5a7b664d3ede84a50f474c1c",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -385,7 +378,8 @@
       <updated>1741930849651</updated>
       <workItem from="1741930850662" duration="10968000" />
       <workItem from="1741951571198" duration="4185000" />
-      <workItem from="1742008782058" duration="15222000" />
+      <workItem from="1742008782058" duration="16443000" />
+      <workItem from="1742095851539" duration="1180000" />
     </task>
     <task id="LOCAL-00001" summary="springmvc快速入门">
       <option name="closed" value="true" />
@@ -427,7 +421,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742021339849</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ssm整合接口开发，功能测试">
+      <option name="closed" value="true" />
+      <created>1742032183459</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742032183459</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,6 +465,7 @@
     <MESSAGE value="请求映射路径@RequestMapping" />
     <MESSAGE value="requestParam" />
     <MESSAGE value="ssm整合配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssm整合配置" />
+    <MESSAGE value="ssm整合接口开发，功能测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm整合接口开发，功能测试" />
   </component>
 </project>
