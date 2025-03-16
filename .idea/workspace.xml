@@ -9,13 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec01a3d9-b587-4c88-aa88-26012139cc9f" name="Changes" comment="ssm整合接口开发，功能测试">
-      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/controller/Code.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/controller/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/842bf5fd-9d9c-4055-8b9a-7f4f12eb5aa9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/842bf5fd-9d9c-4055-8b9a-7f4f12eb5aa9.xml" afterDir="false" />
+    <list default="true" id="ec01a3d9-b587-4c88-aa88-26012139cc9f" name="Changes" comment="ssm表现层和前端页面数据统一处理">
+      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/controller/ProjectExceptionAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/controller/BookController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,7 +375,7 @@
       <workItem from="1741930850662" duration="10968000" />
       <workItem from="1741951571198" duration="4185000" />
       <workItem from="1742008782058" duration="16443000" />
-      <workItem from="1742095851539" duration="1180000" />
+      <workItem from="1742095851539" duration="2507000" />
     </task>
     <task id="LOCAL-00001" summary="springmvc快速入门">
       <option name="closed" value="true" />
@@ -429,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742032183459</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ssm表现层和前端页面数据统一处理">
+      <option name="closed" value="true" />
+      <created>1742097240797</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742097240797</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,6 +470,7 @@
     <MESSAGE value="requestParam" />
     <MESSAGE value="ssm整合配置" />
     <MESSAGE value="ssm整合接口开发，功能测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssm整合接口开发，功能测试" />
+    <MESSAGE value="ssm表现层和前端页面数据统一处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm表现层和前端页面数据统一处理" />
   </component>
 </project>
