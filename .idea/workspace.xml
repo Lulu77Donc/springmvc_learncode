@@ -9,14 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec01a3d9-b587-4c88-aa88-26012139cc9f" name="Changes" comment="全局异常处理器">
-      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/exception/SystemException.java" afterDir="false" />
+    <list default="true" id="ec01a3d9-b587-4c88-aa88-26012139cc9f" name="Changes" comment="自定义异常">
+      <change afterPath="$PROJECT_DIR$/spring-interceptor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-interceptor/src/main/java/com/ljx/config/ServletConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-interceptor/src/main/java/com/ljx/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-interceptor/src/main/java/com/ljx/config/SpringMvcSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-interceptor/src/main/java/com/ljx/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-interceptor/src/main/java/com/ljx/controller/interceptor/ProjectInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-interceptor/src/main/java/com/ljx/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-interceptor/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-interceptor/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/controller/Code.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/controller/Code.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/controller/ProjectExceptionAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/controller/ProjectExceptionAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-ssm/src/main/java/com/ljx/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +67,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/JavaWeb_learn/Spring_learnCode/spring-jdbc-tx",
+    "last_opened_file_path": "D:/JavaWeb_learn/SpringMVC_learnCode/spring-interceptor",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,11 +86,16 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaWeb_learn\SpringMVC_learnCode\spring-interceptor\src\main\java\com\ljx\domain" />
+      <recent name="D:\JavaWeb_learn\SpringMVC_learnCode\spring-interceptor\src\main\java\com\ljx\controller" />
+      <recent name="D:\JavaWeb_learn\SpringMVC_learnCode\spring-interceptor\src\main\java\com\ljx\config" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ljx.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.springmvc-ssm [tomcat7:run]">
+  <component name="RunManager" selected="Maven.spring-interceptor [tomcat7:run]">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ljx.App" />
       <module name="springmvc-beanload" />
@@ -153,6 +163,35 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/springmvc-quickstart" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="spring-interceptor [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/spring-interceptor" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -356,6 +395,7 @@
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.BookServiceTest.testGetAll" />
       <item itemvalue="JUnit.BookServiceTest.testGetById" />
+      <item itemvalue="Maven.spring-interceptor [tomcat7:run]" />
       <item itemvalue="Maven.springmvc-ssm [tomcat7:run]" />
       <item itemvalue="Maven.springmvc-request-param [tomcat7:run]" />
       <item itemvalue="Maven.springmvc-request-mapping [tomcat7:run]" />
@@ -380,7 +420,8 @@
       <workItem from="1741930850662" duration="10968000" />
       <workItem from="1741951571198" duration="4185000" />
       <workItem from="1742008782058" duration="16443000" />
-      <workItem from="1742095851539" duration="5090000" />
+      <workItem from="1742095851539" duration="5959000" />
+      <workItem from="1742194356654" duration="3663000" />
     </task>
     <task id="LOCAL-00001" summary="springmvc快速入门">
       <option name="closed" value="true" />
@@ -446,7 +487,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742098731404</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="自定义异常">
+      <option name="closed" value="true" />
+      <created>1742104987251</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742104987251</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,6 +534,7 @@
     <MESSAGE value="ssm整合接口开发，功能测试" />
     <MESSAGE value="ssm表现层和前端页面数据统一处理" />
     <MESSAGE value="全局异常处理器" />
-    <option name="LAST_COMMIT_MESSAGE" value="全局异常处理器" />
+    <MESSAGE value="自定义异常" />
+    <option name="LAST_COMMIT_MESSAGE" value="自定义异常" />
   </component>
 </project>
