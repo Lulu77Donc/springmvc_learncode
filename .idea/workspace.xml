@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec01a3d9-b587-4c88-aa88-26012139cc9f" name="Changes" comment="拦截器">
-      <change afterPath="$PROJECT_DIR$/spring-interceptor/src/main/java/com/ljx/controller/interceptor/ProjectInterceptor2.java" afterDir="false" />
+    <list default="true" id="ec01a3d9-b587-4c88-aa88-26012139cc9f" name="Changes" comment="多个拦截器链">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-interceptor/src/main/java/com/ljx/config/SpringMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-interceptor/src/main/java/com/ljx/config/SpringMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,33 +48,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/JavaWeb_learn/SpringMVC_learnCode/spring-interceptor",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2229885",
-    "spring.configuration.checksum": "22e3a16e5a7b664d3ede84a50f474c1c",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaWeb_learn/SpringMVC_learnCode&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2229885&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;c325f905a46ec11572938c7b0f9b47ba&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaWeb_learn\SpringMVC_learnCode\spring-interceptor\src\main\java\com\ljx\domain" />
@@ -413,7 +412,12 @@
       <workItem from="1741951571198" duration="4185000" />
       <workItem from="1742008782058" duration="16443000" />
       <workItem from="1742095851539" duration="5959000" />
-      <workItem from="1742194356654" duration="5106000" />
+      <workItem from="1742194356654" duration="5949000" />
+      <workItem from="1742209589491" duration="1215000" />
+      <workItem from="1742268521414" duration="1389000" />
+      <workItem from="1742279232929" duration="351000" />
+      <workItem from="1742367145218" duration="824000" />
+      <workItem from="1742369469852" duration="777000" />
     </task>
     <task id="LOCAL-00001" summary="springmvc快速入门">
       <option name="closed" value="true" />
@@ -495,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742199227247</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="多个拦截器链">
+      <option name="closed" value="true" />
+      <created>1742201095155</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1742201095155</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,6 +548,7 @@
     <MESSAGE value="全局异常处理器" />
     <MESSAGE value="自定义异常" />
     <MESSAGE value="拦截器" />
-    <option name="LAST_COMMIT_MESSAGE" value="拦截器" />
+    <MESSAGE value="多个拦截器链" />
+    <option name="LAST_COMMIT_MESSAGE" value="多个拦截器链" />
   </component>
 </project>
